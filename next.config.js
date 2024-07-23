@@ -4,7 +4,7 @@ const nextConfig = {
         appDir: true, // Enable support for the new `app` directory (if necessary)
     },
     trailingSlash: true, // Add trailing slashes to URLs for GitHub Pages
-    async exportPathMap(defaultPathMap) {
+    async generateStaticParams(defaultPathMap) {
         return {
         '/': { page: '/' },
         // Define additional paths as needed

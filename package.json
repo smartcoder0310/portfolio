@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out",
     "lint": "next lint"
   },
   "author": {
@@ -77,12 +79,13 @@
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.5.3",
     "tailwind-merge": "^2.2.0",
-    "three": "^0.160.0"
+    "three": "^0.160.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.166.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",

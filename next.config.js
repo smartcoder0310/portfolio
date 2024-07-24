@@ -2,9 +2,9 @@
 const nextConfig = {
     trailingSlash: true,
     output: 'export',
-    basePath: '/portfolio',
-    basePath: '/portfolio',
-    assetPrefix: '/portfolio/'
+    // basePath: '/portfolio',
+    // basePath: '/portfolio',
+    // assetPrefix: '/portfolio/'
 }
 
 module.exports = nextConfig

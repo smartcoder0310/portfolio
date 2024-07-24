@@ -1,0 +1,9 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/icon1.png/route": "app/icon1.png/route.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/icon2.png/route": "app/icon2.png/route.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/[slug]/page": "app/[slug]/page.js"
+}

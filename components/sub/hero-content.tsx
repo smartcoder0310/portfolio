@@ -62,12 +62,13 @@ export const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/hero-bg.svg"
+          src="./hero-bg.svg"
           alt="work icons"
           height={650}
           width={650}
           draggable={false}
           className="select-none"
+          unoptimized
         />
       </motion.div>
     </motion.div>
